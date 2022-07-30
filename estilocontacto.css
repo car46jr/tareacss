@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(css/menu.css);
+@import url(css/info.css);
+@import url(css/footer.css);
+@import url(css/palettelist.css);
+
+*{
+	margin: 0px;
+	padding: 0px;
+	margin-top: 20px;
+}
+
+
+.linea {
+	background-color: #00adb5;
+}
+
+body{
+	background-clip: content-box;
+    font-family: 'Roboto', sans-serif;
+    background: #eeeeee;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background: #2c2d34;
+	color: #ffffff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.contenedor{
+	width: 98%;
+	margin: auto;
+
+}
+h1{
+	float: left;	
+}
+header .contenedor{ 
+	display: table;
+}
+@media (min-width: 1024px){
+	.contenedor{
+		width: 1200px;
+	}
+}
+
+/*contacto*/
+form{
+width:400px;
+margin: auto;
+background: rgba(0,0,0,0.4);
+padding: 10px 20px;
+box-sizing: border-box;
+margin-top: 20px;
+border-radius: 7px;
+}
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom:20px;
+}
+h4.redes{
+	font-size:40px;
+
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 9px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+
+}
+#boton{
+	background: #313845;
+	color: #fff;
+	padding: 20px;
+}
+#boton:hover{
+cursor: pointer;
+}
+
+@media(
+	max-width: 480px){
+	form{
+		width: 100%
+	}
+}
+/* respuesta de php */ 
+h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	background: rgba(0,0,0,0.4);
+	margin-top: 20px;
+}
+/* mapa */
+.maps{
+text-align: center;
+
+}
+/* pie de Pagina  */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Pie de Pagina */
+h3.redes{
+	font-size:20px;
+}
+p.horario{
+	font-size: 17px;
+}
+
+h5{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.copy{
+	font-size: 20px;
+	text-align: center;
+}
+
+footer .contenedor1{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px
+	justify-content:center;
+}
+
+ footer{
+	margin: auto;
+ 	background:#2c2d34;
+	color:#ffffff;
+
+}
+.sociales a {
+	color: #2c2d34; 
+	text-decoration: none;
+	font-size: 60px;
+	text-align: center; 
+}

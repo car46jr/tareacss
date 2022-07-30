@@ -1,0 +1,44 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Pie de Pagina */
+h3.redes{
+	font-size:20px;
+}
+p.horario{
+	font-size: 17px;
+}
+
+h5{
+	font-size: 20px;
+	font-style: italic;
+}
+
+.copy{
+	font-size: 20px;
+	text-align: center;
+}
+
+footer .contenedor1{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 20px
+	justify-content:center;
+}
+
+ footer{
+	margin: auto;
+ 	background:#2c2d34;
+	color:#ffffff;
+
+}
+.sociales a {
+	color: #ffffff; 
+	text-decoration: none;
+	font-size: 40px; 
+}
+
